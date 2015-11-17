@@ -1,5 +1,18 @@
-public class raj { 
-   public static void main(String[] args) { 
-      System.out.println("Hello, World");
-   }
+public class raj {
+ 
+    public static void main(String a[]){
+         
+         int febCount = 15;
+         int[] feb = new int[febCount];
+         feb[0] = 0;
+         feb[1] = 1;
+         for(int i=2; i < febCount; i++){
+             feb[i] = feb[i-1] + feb[i-2];
+         }
+ 
+         for(int i=0; i< febCount; i++){
+                 System.out.print(feb[i] + " ");
+         }
+    }
 }
+- See more at: http://java2novice.com/java-interview-programs/fibonacci-series/#sthash.cAoEDYxU.dpuf
