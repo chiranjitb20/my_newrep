@@ -6,6 +6,6 @@ public class chiranjit {
        for (int i = 1; i <= n; i++) {
            result = result * i;
        }
-       System.out.println("The factorial of 7 is " + result);
+       System.out.println("The factorial of 5 is " + result);
    }
 }
